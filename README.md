@@ -5,7 +5,8 @@ The dropdown should make it automatically bigger to display the content.
 
 In addition to this, it is not possible to render content in the text-field that shows the selected value.
 
-# Skeleton Starter for Vaadin Flow
+
+## Skeleton Starter for Vaadin Flow
 
 This project can be used as a starting point to create your own Vaadin Flow application.
 It has the necessary dependencies and files to help you get started.
