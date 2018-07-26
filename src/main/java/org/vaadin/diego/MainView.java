@@ -25,13 +25,11 @@ public class MainView extends VerticalLayout {
         setSizeFull();
 
         ComboBox<String> comboBox = new ComboBox<>();
-        ComboBox<String> comboBox2 = new ComboBox<>();
 
-        List<String> names = Stream.of("123456789012345678901234567890 123456789012345678901234567890","123456789012345678901234567890","123456789012345678901234567890").collect(Collectors.toList());
+        List<String> names = Stream.of("123456789 123456789 123456789 123456789","abcdefghijk","123456789").collect(Collectors.toList());
 
-        comboBox.setItems( names );
 
-        comboBox2.setRenderer(new ComponentRenderer<>(item -> {
+        comboBox.setRenderer(new ComponentRenderer<>(item -> {
             VerticalLayout container = new VerticalLayout();
 
             H1 h = new H1(item);
@@ -41,8 +39,8 @@ public class MainView extends VerticalLayout {
             return container;
         }));
 
-        comboBox2.setItems( names );
+        comboBox.setItems( names );
 
-        add(comboBox, comboBox2 );
+        add(comboBox );
     }
 }
