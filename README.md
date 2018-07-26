@@ -1,4 +1,9 @@
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vaadin-flow/Lobby#?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+# Visual bug - Combobox
+
+Click on the combobox and you will see there is an overflow of the content.
+The dropdown should make it automatically bigger to display the content.
+
+In addition to this, it is not possible to render content in the text-field that shows the selected value.
 
 # Skeleton Starter for Vaadin Flow
 
